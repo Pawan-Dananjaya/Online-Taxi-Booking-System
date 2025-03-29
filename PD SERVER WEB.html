@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PD Server Taxi Boking System</title>
+
+    
+    <style>
+
+        .image_1
+        {
+            float: left;
+        }
+
+        .image_2
+        {
+            float: right;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #000;
+        }
+
+        .uber-form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #666;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #333;
+        }
+
+        footer {
+            background-color: #eee;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+
+        
+    </style>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+
+    function translateWord() {
+        var wordToTranslate = 'TranslateThisWord'; // Replace with your word
+        google.translate.translate({pageLanguage: 'en', source: 'en', target: 'es', q: wordToTranslate}, function(result) {
+            var translatedText = result.data.translations[0].translatedText;
+            alert('Translated word to Spanish: ' + translatedText);
+        });
+    }
+</script>
+
+    <link rel="stylesheet" href="Project.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="head">PD SERVER TAXI BOOKING SYSTEM</h1>
+    </header>
+
+    <nav class="navbar">
+        
+        <div>
+            
+            
+            <a href="file:///D:/VS/Business.html">Business</a>
+            <a href="D:\VS\Text.html">About</a>
+            <a href="D:\VS\Help Button.html">Help</a>
+            <a href="D:\VS\Login Foarm.html">Log in</a>
+        </div>
+        
+        <div>
+            
+            
+            <br>
+            <a id="google_translate_element"></a>
+            
+         </div>
+         
+    </nav>
+
+    <section class="s0">
+        <h2>Book Your Ride</h2>
+        <img class="image_1" src="1tt.jpg" width="350" height="290">
+        <form class="uber-form" action="#" method="post">
+            <label for="pickup">Pickup Location:</label>
+            <input type="text" id="pickup" name="pickup" required>
+
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <input type="submit" value="Book Now">
+        </form>
+    </section>
+    <section class="s1">
+    <p><img class="image_2" src="th.jpg" width="320"> <h3><b><u>Ride</u></b></h3>
+        PD Server Ride includes the largest fleet of vehicles in Sri Lanka offering both on-demand and pre-booking<br><br> features at the best rates, including TUK – TUKs Flex, Minis, Cars, Minivans and Vans offering you comfort,<br><br> convenience and safety, covering the entire island nation.
+        
+    </p>
+    </section>
+
+    <section class="s2">
+
+    <p><h3><b>How Taxi works:</b></h3><br>
+        1. Request
+        Open the website and enter your destination in the “Where to?” box. Once you confirm that your pickup and destination addresses are correct, enter the time you want to book taxi then select Taxi.
+        
+        After you’ve been matched with a driver, you’ll see their vehicle details and can track their arrival on the map.<br><br><br>
+        
+        2. Ride
+        Check that the vehicle details match what you see in the app before getting in the vehicle.
+        
+        Your driver has your destination and directions for the fastest way to get there, but you can always request a specific route.<br><br><br>
+        
+        3. Hop out
+        You’ll be automatically charged through your payment method on file, so you can exit the vehicle as soon as you arrive.
+        
+        Remember to rate your driver to help keep Uber safe and enjoyable for everyone. You can also consider tipping your driver.<br><br><br>
+        </p>
+
+    </section>
+    
+
+    <footer>
+        <p>
+            <a href="#">Pd server</a>
+            | <a href="D:\123\Help Page.html">Visit Help Center</a>
+        </p>
+        <p>
+            <a href="#">Company</a>
+            | <a href="D:\VS\Text.html">About us</a>
+            | <a href="D:\123\new 1.html">Our offerings</a>
+            | <a href="#">Newsroom</a>
+            | <a href="#">Investors</a>
+            | <a href="#">Blog</a>
+            | <a href="#">Careers</a>
+        </p>
+        <p>
+            <a href="#">Ride</a>
+            | <a href="#">Drive</a>
+            | <a href="file:///D:/VS/Business.html">PD server for Business</a>
+        </p>
+        <p>
+            <a href="#">Travel</a>
+            | <a href="#">Reserve</a>
+            | <a href="#">Cities</a>
+        </p>
+        <div class="home_sci">
+            <a href="https://www.Facebook.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANxJREFUSEtjZKAxYKSx+QyDzgJtoI9bgdgMiEWA+BkQLwHiGlwhQYoPpICG3ANidjTD1gD5odSwYDrQkAwsBq0GioVRw4KzQEOMoAYdANIuQPyXUCIhJYheAQ0ThRqYCaRnEDIcJE+KBW+A6oWhhqYB6dnUsAAUtlpQg8qANCeUvRlIn4OyjwDpPeTGASiFBBNwaSFQfgItLQgAGr6RXAsagRrtoZqtgDQrlH0LSD+HslOB9G1yLUDW9xrIAeVeEKBaJI9aQFJGG40DgiULzYOIoAuwKSClNB2cFgAAXwcqGTNfFSYAAAAASUVORK5CYII="/></a>
+            <a href="https://www.whatsapp.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAj9JREFUSEvNlU1IVUEUx3216MuMdkmKJBqJgqmYbZQQSiVo0wcoCIUk+I0ILmqTYIuoTaYRCKGgC0EXQoSVJSpBiVKbPghUDFelCAYaldrvD3Pjdrkzb/XgDfyY8Z0z87/nzJljJCHGIxLj8xPiQqCAKK9ACRyHLXgNb+EZvHNlwRVBKht7oQx+mIM+Mf+EPMiFQ3APbsKvMCGbgL50AvZAKwzATsgBTUZggfkSfAj6hAkcwWnWpKKUed6VAmw5MAq7IBs2/P5hAk9xOAWFsAhH4SB8dghJZA4eQ51LoBjjFNQY5ywTzXfmY5Y0eefdYHEbzsEL78dgBA8wXIPD8Bva4Y5x1mU/d0SxD5uKQem6aBN4j+ErXDAO9cw9Zi3hPoeATNqvcdImsIxBd1BrHJKZdQ9roLL9E0XgEfYqSLIJfMGgy6r0HaRS7IKH0Ahh5eq5K50tsNcmMIZB+S8KfOkQf+s1K78S3A99oKoZNhFqi/zyIdMm0IlBF5sC33wiu1nfhwZYBxWHSlfjrtmjd7ACI3DdJpCOQQ+rA275BLzlWRZK1wnzwzZzOagslftB+K/awh6aKkENTU3ONpQGXeQSqAjSYAbUq874NwUFDmBUxeg9tDkE/CYdPm4E9fpV5v9GUOA8lidQDQpfr/IN9MNmQFD3dBWaQZWlvhW12XXjpIv0hjZkgFrxJCgdOky96rRxmmbWIwxtisEIdFlyfAUvYRUS4TJUgMpXZfwR1LNUosq9dcTFv0zXB0a1xTyCv9I6cRk+lh4SAAAAAElFTkSuQmCC"/></i></box-icon></a>
+            <a href="https://www.youtube.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVdJREFUSEtjZKAxYKSx+QyjFhAMYfQgkgTqaAZiFSCWAWJlgiYwMPwHqrkOxK+B+CYQNwLxM5g+ZAvUgYKngZiXCEPxKfkIlDQC4nsgRcgWLADy4yk0HKZ9HpCRjG7BOaCAIZUsOAU0xxzdgjdAAWEcFoDC2RuIJ0Hjh5A7HgEVyKNb8BcowIRD5z+gODMQswBxDhCDEgIPHlveA+WEkC3gBnK+4NEA8gGy5SJAfgsQpwExtsz6GSjOh2wByGW/8VgA8h1IDQwQsuAHUCEnehCBXIkLwCwAWZIFxKC0LoBH/SugnDi6BaAgAgUVNgCyIAiIe4EYlAkJgRtABZroFoBiXpaQTiLlDwHV2aNbsBEo4EekAYSUzQYqACUAlBSgC+SfBGJw5FAIQEXFeXQLQHxQTs4G4idQC9ygYhxYLATF2SUgRk59t4D8qUB8EaZ+tMIhGFVDP4gAaFYyGTwOBNMAAAAASUVORK5CYII="/></a>
+        </div>
+    </footer>
+   
+</body>
+</html>
